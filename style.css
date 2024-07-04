@@ -1,18 +1,61 @@
+h1{
+  text-align: center;
+  font-size: 60px;
+}
+#turnIndicator{
+  text-align: center;
+
+
+}
+
+body {
+  background-color: #c4c4c4; 
+  cursor: crosshair;
+}
+
+/* Style the grid */
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-gap: 5px;
-    margin: 20px auto;
-    max-width: 350px;
-  }
-  
-  .cell {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    background-color: #eef;
-    font-size: 2rem;
-    cursor: pointer;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+  margin: 0 auto;
+  width: 300px; /* Make the width of the grid bigger */
+  height: 300px; /* Make the heigh of the grid bigger */
+}
+
+/* Style the cells */
+.cell {
+  border: 2px solid #d5ff3c; /* Add a border to the cells */
+  background-color: hsl(118, 66%, 33%); 
+  color: #000; 
+  font-size: 2em; 
+  display: flex;
+   box-shadow: #23f573;
+  justify-content: center;
+  align-items: center;
+}
+
+button{font-size: xx-large;
+
+background-color: yellow;
+
+
+
+}
+
+
+
+
+/* Style the button */
+.btn {
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* Add a hover effect to the cells */
+.cell:hover {
+
+  background-color: #edfc22; /* Change the background color when hovered */
+  cursor: pointer; /* Change the cursor to a hand pointer */
+}
