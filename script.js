@@ -2,8 +2,8 @@
 $(document).ready(function() {
 
   // These lines set up some variables for the game.
-  let currentPlayer = 'X'; // This keeps track of whose turn it is.
-  let gameOver = false; // This tells us if the game is over or not.
+  let currentPlayer = 'X'; 
+  let gameOver = false; // 
   const grid = ['', '', '', '', '', '', '', '', '']; // This represents the game board.
 
   // This code runs when a cell on the game board is clicked.
